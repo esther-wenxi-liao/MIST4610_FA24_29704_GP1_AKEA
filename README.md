@@ -352,7 +352,7 @@ HAVING COUNT(DISTINCT Certificate.ModelName) > 1
 This query identifies employees who are certified for multiple plane models and have worked on more than one flight in a single day. By joining the **Employee**, **Certificate**, **AirCrew**, and **Flight** tables, the query counts the number of distinct plane models and flights each employee is associated with and filters based on those who meet the criteria.
 
 ### Managerial Relevance
-Employees certified for multiple plane models provide airlines with more flexibility in staffing and scheduling. These versatile employees can be assigned to a wider range of flights, reducing staffing constraints and improving operational efficiency. Managers can use this query to identify these employees and ensure they are optimally utilized in day-to-day operations. Additionally, this data can inform decisions about further training or certification opportunities for employees to enhance their versatility.
+Employees certified for multiple plane models provide airlines with more flexibility in staffing and scheduling. These versatile employees can be assigned to a wider range of flights, reducing staffing constraints and improving operational efficiency. Managers can use this query to identify these employees and ensure they are optimally utilized in day-to-day operations. Additionally, this data can help to avoid aire creews overwork.
 
 
 ## 8. List airlines with planes averaging less than 50% occupancy
@@ -448,4 +448,4 @@ Identifying underutilized planes is crucial for fleet management and resource op
 
 The name of the database on the MySQL server: **cs_wl82230**
 
-
+Each query listed above is marked in the database using stored procedures which can be called using the following format: ```CALL TP_Qx();``` where ```x``` is the number of query.
