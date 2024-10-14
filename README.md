@@ -9,7 +9,7 @@ AKEA
 1. Andrew Hancock [@AndyH775](https://github.com/AndyH775)
 2. Kaniyah McGee [@Kmcgee2026](https://github.com/Kmcgee2026)
 3. Esther Liao [@esther-wenxi-liao](https://github.com/esther-wenxi-liao)
-4. Alexis Williams ​
+4. Alexis Williams ​[@AlexisWilliams26](https://github.com/AlexisWilliams26)
 
 # Project Scenario
 
